@@ -1,1 +1,50 @@
+body {
+    background-color: #FAF9F7;
+}
+.navigation-bar {
+    width: 95%;  /* i'm assuming full width */
+    height: 80px; /* change it to desired width */
+    margin-left: 5%;
+    
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    margin-right: 80px;
+    margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+}
+.navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 40px;
+    height: 80px;        /* if you want it to take the full height of the bar */
+    line-height: 80px;    /* if you want it vertically middle of the navbar */
+    margin-top: 15px; 
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(84, 84, 84)
+}
 
+a:link { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: underline; 
+} 
+
+a:hover { 
+    text-decoration: underline; 
+} 
+
+a:active { 
+    text-decoration: underline; 
+}
+
+.landing-img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 5%;
+}
